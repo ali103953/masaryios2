@@ -1,0 +1,211 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* PBXBuildFile */
+		AA000001 /* MasaryApp.swift in Sources */  = {isa=PBXBuildFile; fileRef=AA100001;};
+		AA000002 /* RootView.swift in Sources */   = {isa=PBXBuildFile; fileRef=AA100002;};
+		AA000003 /* Assets.xcassets in Resources */= {isa=PBXBuildFile; fileRef=AA100003;};
+
+/* PBXFileReference */
+		AA100000 /* Masary.app */      = {isa=PBXFileReference; explicitFileType=wrapper.application; includeInIndex=0; path=Masary.app; sourceTree=BUILT_PRODUCTS_DIR;};
+		AA100001 /* MasaryApp.swift */ = {isa=PBXFileReference; lastKnownFileType=sourcecode.swift; path=MasaryApp.swift; sourceTree="<group>";};
+		AA100002 /* RootView.swift */  = {isa=PBXFileReference; lastKnownFileType=sourcecode.swift; path=RootView.swift; sourceTree="<group>";};
+		AA100003 /* Assets.xcassets */= {isa=PBXFileReference; lastKnownFileType=folder.assetcatalog; path=Assets.xcassets; sourceTree="<group>";};
+		AA100004 /* Info.plist */      = {isa=PBXFileReference; lastKnownFileType=text.plist.xml; path=Info.plist; sourceTree="<group>";};
+
+/* PBXFrameworksBuildPhase */
+		AA200000 = {isa=PBXFrameworksBuildPhase; buildActionMask=2147483647; files=(); runOnlyForDeploymentPostprocessing=0;};
+
+/* PBXGroup */
+		AA300000 /* root */ = {isa=PBXGroup; children=(AA300001,AA300002); sourceTree="<group>";};
+		AA300001 /* Masary */ = {
+			isa=PBXGroup;
+			children=(AA100001,AA100002,AA100003,AA100004);
+			path=Masary;
+			sourceTree="<group>";
+		};
+		AA300002 /* Products */ = {isa=PBXGroup; children=(AA100000); name=Products; sourceTree="<group>";};
+
+/* PBXNativeTarget */
+		AA400000 /* Masary */ = {
+			isa=PBXNativeTarget;
+			buildConfigurationList=AA600000;
+			buildPhases=(AA200001,AA200000,AA200002);
+			buildRules=();
+			dependencies=();
+			name=Masary;
+			productName=Masary;
+			productReference=AA100000;
+			productType="com.apple.product-type.application";
+		};
+
+/* PBXProject */
+		AA500000 = {
+			isa=PBXProject;
+			attributes={
+				BuildIndependentTargetsInParallel=1;
+				LastSwiftUpdateCheck=1500;
+				LastUpgradeCheck=1500;
+				TargetAttributes={AA400000={CreatedOnToolsVersion=15.0;};};
+			};
+			buildConfigurationList=AA600001;
+			compatibilityVersion="Xcode 14.0";
+			developmentRegion=ar;
+			hasScannedForEncodings=0;
+			knownRegions=(en,ar,Base);
+			mainGroup=AA300000;
+			productRefGroup=AA300002;
+			projectDirPath="";
+			projectRoot="";
+			targets=(AA400000);
+		};
+
+/* PBXResourcesBuildPhase */
+		AA200002 = {isa=PBXResourcesBuildPhase; buildActionMask=2147483647; files=(AA000003); runOnlyForDeploymentPostprocessing=0;};
+
+/* PBXSourcesBuildPhase */
+		AA200001 = {isa=PBXSourcesBuildPhase; buildActionMask=2147483647; files=(AA000001,AA000002); runOnlyForDeploymentPostprocessing=0;};
+
+/* XCBuildConfiguration */
+		AA700000 /* Debug-Project */ = {
+			isa=XCBuildConfiguration;
+			buildSettings={
+				ALWAYS_SEARCH_USER_PATHS=NO;
+				CLANG_ENABLE_MODULES=YES;
+				CLANG_ENABLE_OBJC_ARC=YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING=YES;
+				CLANG_WARN_BOOL_CONVERSION=YES;
+				CLANG_WARN_COMMA=YES;
+				CLANG_WARN_CONSTANT_CONVERSION=YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS=YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE=YES_ERROR;
+				CLANG_WARN_EMPTY_BODY=YES;
+				CLANG_WARN_ENUM_CONVERSION=YES;
+				CLANG_WARN_INFINITE_RECURSION=YES;
+				CLANG_WARN_INT_CONVERSION=YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION=YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF=YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION=YES;
+				CLANG_WARN_OBJC_ROOT_CLASS=YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS=YES;
+				CLANG_WARN_STRICT_PROTOTYPES=YES;
+				CLANG_WARN_SUSPICIOUS_MOVE=YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY=YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE=YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH=YES;
+				DEBUG_INFORMATION_FORMAT=dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND=YES;
+				ENABLE_TESTABILITY=YES;
+				GCC_C_LANGUAGE_STANDARD=gnu17;
+				GCC_DYNAMIC_NO_PIC=NO;
+				GCC_NO_COMMON_BLOCKS=YES;
+				GCC_OPTIMIZATION_LEVEL=0;
+				GCC_PREPROCESSOR_DEFINITIONS=("DEBUG=1","$(inherited)");
+				GCC_WARN_64_TO_32_BIT_CONVERSION=YES;
+				GCC_WARN_ABOUT_RETURN_TYPE=YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR=YES;
+				GCC_WARN_UNINITIALIZED_AUTOS=YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION=YES;
+				GCC_WARN_UNUSED_VARIABLE=YES;
+				IPHONEOS_DEPLOYMENT_TARGET=15.0;
+				MTL_ENABLE_DEBUG_INFO=INCLUDE_SOURCE;
+				MTL_FAST_MATH=YES;
+				ONLY_ACTIVE_ARCH=YES;
+				SDKROOT=iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS="DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL="-Onone";
+			};
+			name=Debug;
+		};
+		AA700001 /* Release-Project */ = {
+			isa=XCBuildConfiguration;
+			buildSettings={
+				ALWAYS_SEARCH_USER_PATHS=NO;
+				CLANG_ENABLE_MODULES=YES;
+				CLANG_ENABLE_OBJC_ARC=YES;
+				COPY_PHASE_STRIP=NO;
+				DEBUG_INFORMATION_FORMAT="dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS=NO;
+				ENABLE_STRICT_OBJC_MSGSEND=YES;
+				GCC_C_LANGUAGE_STANDARD=gnu17;
+				GCC_NO_COMMON_BLOCKS=YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION=YES;
+				GCC_WARN_ABOUT_RETURN_TYPE=YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR=YES;
+				GCC_WARN_UNINITIALIZED_AUTOS=YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION=YES;
+				GCC_WARN_UNUSED_VARIABLE=YES;
+				IPHONEOS_DEPLOYMENT_TARGET=15.0;
+				MTL_FAST_MATH=YES;
+				SDKROOT=iphoneos;
+				SWIFT_COMPILATION_MODE=wholemodule;
+				VALIDATE_PRODUCT=YES;
+			};
+			name=Release;
+		};
+		AA700002 /* Debug-Target */ = {
+			isa=XCBuildConfiguration;
+			buildSettings={
+				ASSETCATALOG_COMPILER_APPICON_NAME=AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME=AccentColor;
+				CODE_SIGN_STYLE=Automatic;
+				CURRENT_PROJECT_VERSION=1;
+				DEVELOPMENT_TEAM="";
+				ENABLE_PREVIEWS=YES;
+				GENERATE_INFOPLIST_FILE=NO;
+				INFOPLIST_FILE=Masary/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET=15.0;
+				LD_RUNPATH_SEARCH_PATHS=("$(inherited)","@executable_path/Frameworks");
+				MARKETING_VERSION=1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER=sa.masary.app;
+				PRODUCT_NAME="$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS=YES;
+				SWIFT_VERSION=5.0;
+				TARGETED_DEVICE_FAMILY="1,2";
+			};
+			name=Debug;
+		};
+		AA700003 /* Release-Target */ = {
+			isa=XCBuildConfiguration;
+			buildSettings={
+				ASSETCATALOG_COMPILER_APPICON_NAME=AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME=AccentColor;
+				CODE_SIGN_STYLE=Automatic;
+				CURRENT_PROJECT_VERSION=1;
+				DEVELOPMENT_TEAM="";
+				ENABLE_PREVIEWS=YES;
+				GENERATE_INFOPLIST_FILE=NO;
+				INFOPLIST_FILE=Masary/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET=15.0;
+				LD_RUNPATH_SEARCH_PATHS=("$(inherited)","@executable_path/Frameworks");
+				MARKETING_VERSION=1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER=sa.masary.app;
+				PRODUCT_NAME="$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS=YES;
+				SWIFT_VERSION=5.0;
+				TARGETED_DEVICE_FAMILY="1,2";
+			};
+			name=Release;
+		};
+
+/* XCConfigurationList */
+		AA600000 /* Target */ = {
+			isa=XCConfigurationList;
+			buildConfigurations=(AA700002,AA700003);
+			defaultConfigurationIsVisible=0;
+			defaultConfigurationName=Release;
+		};
+		AA600001 /* Project */ = {
+			isa=XCConfigurationList;
+			buildConfigurations=(AA700000,AA700001);
+			defaultConfigurationIsVisible=0;
+			defaultConfigurationName=Release;
+		};
+
+	};
+	rootObject=AA500000;
+}
