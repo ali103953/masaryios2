@@ -6,6 +6,7 @@ struct WebView: UIViewRepresentable {
     let urlString: String
 
     func makeUIView(context: Context) -> WKWebView {
+
         let webView = WKWebView()
 
         webView.scrollView.bounces = false
@@ -25,9 +26,10 @@ struct WebView: UIViewRepresentable {
 
 struct RootView: View {
 
-    private let urlString = "https://masarapp.online"
+    private let urlString = "https://masary.online"
 
     var body: some View {
+
         WebView(urlString: urlString)
             .ignoresSafeArea()
     }
