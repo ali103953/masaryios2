@@ -23,8 +23,17 @@ struct WebView: UIViewRepresentable {
         context.coordinator.webView = webView
 
         if let url = URL(string: urlString) {
-            let request = URLRequest(url: url)
-            webView.load(request)
+            let request = URLRequest(
+                url: url,
+                cachePolicy: .reloadIgnoringLocalAndRemoteCacheData,
+                timeoutInterval: 30
+            )
+            WKWebsiteDataStore.default().removeData(
+                ofTypes: [WKWebsiteDataTypeDiskCache, WKWebsiteDataTypeMemoryCache],
+                modifiedSince: .distantPast
+            ) {
+                webView.load(request)
+            }
         }
 
         return webView
@@ -303,7 +312,7 @@ struct WebView: UIViewRepresentable {
 
 struct RootView: View {
 
-    private let urlString = "https://masary.online"
+    private let urlString = "https://masary.online?v=22"
     @State private var reloadToken = UUID()
     @State private var isLoading = true
     @State private var errorMessage: String?
