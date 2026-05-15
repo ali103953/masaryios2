@@ -31,8 +31,8 @@ README.md
 اختر workflow: `ios-release` → Start new build
 
 ## ملاحظة مهمة
-في `RootView.swift` السطر الأول من `MasaryWebView`:
+في `RootView.swift` رابط التطبيق الحالي:
 ```swift
-private let urlString = "https://masary-b9727.web.app"
+private let urlString = "https://masary.online"
 ```
-غيّره لرابط موقعك الفعلي بعد رفعه على Firebase Hosting.
+غيّره فقط إذا انتقل الموقع إلى نطاق جديد.
